@@ -8,7 +8,7 @@ interface MainProps {
 
 const MainLayout = ({ children }: MainProps) => {
     return (
-        <main className="bg-gray-100 flex flex-col h-screen antialiased">
+        <main className="bg-gray-100 flex flex-col min-h-screen antialiased">
             <HeaderLayout />
             <div className="flex-grow">
                 {children}
